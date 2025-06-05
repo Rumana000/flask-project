@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello from my Flask app deployed to k8s using GitHub Actions!!"
+    return "Hello from my Flask app deployed to kubernetes using GitHub Actions!!"
 
 
 
